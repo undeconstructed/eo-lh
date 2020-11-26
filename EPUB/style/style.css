@@ -48,7 +48,7 @@ nav a {
 .part {
 }
 .part header h1 {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   text-align: center;
   font-weight: normal;
   margin-bottom: 2em;
@@ -67,7 +67,8 @@ nav a {
 }
 .chapter > h2 {
   page-break-after: avoid;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-size: 300%;
   text-align: center;
   margin: 2em 0;
 }
@@ -84,9 +85,13 @@ nav a {
   text-indent: 0;
 }
 .chapter > h2 + p::first-letter {
-  font-size: 230%;
+  /* font-size: 230%; */
   /* padding: 6px 3px; */
-  /* float: left; */
+  float:left;
+  font-size: 3em;
+  line-height: 0.8em;
+  margin-right: 0;
+  margin-bottom: -0.1em;
 }
 
 .song {
@@ -116,5 +121,8 @@ nav a {
 
 .plainlist {
   list-style-type: none;
-  padding-left: 2em;
+  padding-left: 0;
+}
+.plainlist li {
+  text-indent: 2em;
 }
